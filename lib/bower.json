@@ -1,0 +1,23 @@
+{
+  "name": "bower install jquery --save",
+  "homepage": "https://github.com/baonguyen79/route-routing",
+  "authors": [
+    "nguyen",
+    "bao <bao.nguyen@ingramcontent.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4"
+  }
+}

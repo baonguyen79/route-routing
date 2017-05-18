@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Third Party Styles -->
+    <link rel="stylesheet" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- Personal Styles -->
+
+  </head>
+  <body ng-app="highwayApp">
+    <h1>Famous Highways</h1>
+    <div>
+      <a href="#!/blueridgeparkway">Blue Ridge Parkway</a><br>
+      <a href="#!/route66">U.S. Route 66</a>
+      </div>
+
+    <div ng-view></div>
+
+    <!-- Third Party Scripts -->
+    <script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script type="text/javascript" src="./lib/bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="./lib/bower_components/angular-route/angular-route.min.js"></script>
+
+      <!-- Personal Scripts -->
+    <script type="text/javascript" src="./javascripts/app.js"></script>
+    <script type="text/javascript" src="./javascripts/AppConfig.js"></script>
+
+    <script type="text/javascript" src="./javascripts/controllers/highway1Ctrl.js"></script> 
+    <script type="text/javascript" src="./javascripts/controllers/highway2Ctrl.js"></script>   
+
+  </body>
+</html>
